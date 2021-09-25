@@ -1,0 +1,14 @@
+body {
+    background-image: url("download.jpg");
+    background: rgb(38, 95, 24);
+    text-align: center;
+    background-repeat: r;
+}
+
+h1 {
+    color: rgb(238, 241, 7);
+}
+
+p {
+    color: #fff;
+}
