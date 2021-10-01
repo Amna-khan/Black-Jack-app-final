@@ -1,14 +1,35 @@
 body {
-    background-image: url("download.jpg");
-    background: rgb(38, 95, 24);
+    background-image: url("whisky-with-ice-cubes-casino-chips-playing-card-green-poker-table.jpg");
     text-align: center;
-    background-repeat: r;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    margin: 180px 50px;
+    color: white;
+    font-weight: bold;
+    
 }
 
 h1 {
-    color: rgb(238, 241, 7);
+    color: black;
+}
+
+#message-el {
+    font-style: italic;
+    font-size: 20px;
 }
 
 p {
+ 
+    font-size: 20px;
+}
+
+.start-btn {
+    border: none;
+    margin: 5px;
+    padding: 10px 6px;
     color: #fff;
+    font-weight: bold;
+    width: 150px;
+    border-radius: 10px;
+    background: darkred;
 }
