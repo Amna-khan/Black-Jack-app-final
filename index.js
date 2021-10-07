@@ -9,8 +9,13 @@ let message = "";
 
 
 function getRandomCard(){
-
-
+    let num = Math.floor(Math.random() * 13) + 1
+    
+    if (num == 1){
+        return 11
+    } else if (num > 11 && num <13) {
+        return 10
+    }
 }
 
 
@@ -31,7 +36,7 @@ function renderGame() {
 
 
     sumEl.textContent = "Sum: " + sum;
-    if (sum < 20) {
+    if (sum <= 20) {
         message = "Do you want to draw a new card?";
     
     } else if(sum === 21) {
